@@ -1,0 +1,7 @@
+
+<label>nombre </label><input type="text" [(ngModel)]="usuario.nombre" name="nombre">
+<label>apellido </label><input type="text" [(ngModel)]="usuario.apellido" name="apellido">
+
+<input type="button" (click)="this.usuario.mostrar()" value="cambio">
+<p></p>
+<router-outlet></router-outlet>
